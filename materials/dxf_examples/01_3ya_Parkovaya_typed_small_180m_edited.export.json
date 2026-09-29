@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "input_sha256": "a0cd18862c18b37daabcd27aa809ae4300cdfc3c199ab49c2169ae377c6d7814",
+  "output_sha256": "46e9be174a73455c92719b3a2f8fc9a9d56e59b6c73925670047ae5facb979bf",
+  "placements": 267,
+  "source_preservation": {
+    "passed": true,
+    "source_records_checked": 1118,
+    "missing": [],
+    "changed": [],
+    "scope": "Сериализованные DXF-теги исходных сущностей в блоках/пространствах и существующих слоев. Не побайтовое сравнение файлов."
+  },
+  "coordinate_check": "PASS",
+  "normative_validation": "NOT_IMPLEMENTED",
+  "output": "01_3ya_Parkovaya_typed_small_180m_edited.dxf",
+  "warnings": [],
+  "selected_rules_report_state": "STALE",
+  "checks_sidecar": "01_3ya_Parkovaya_typed_small_180m_edited.checks.json"
+}
