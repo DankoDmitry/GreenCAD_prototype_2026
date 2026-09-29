@@ -1,0 +1,10 @@
+# Tested versions. Python 3.12 or 3.13 (64-bit) recommended.
+# Tkinter/ttk comes with the standard Windows CPython installer (Tcl/Tk option).
+ezdxf==1.4.4
+numpy==2.3.5
+pyparsing==3.3.2
+typing_extensions==4.16.0
+fonttools==4.63.0
+
+# Calculation geometry and spatial index (not the preview renderer).
+shapely==2.1.2

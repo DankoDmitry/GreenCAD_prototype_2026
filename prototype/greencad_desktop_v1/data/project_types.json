@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "note": "Размеры всех знаков демонстрационные, а не нормативные и не ботанические. В первой версии допуски НЕ проверяются.",
+  "types": [
+    {
+      "id": "T1",
+      "name": "Крупное дерево",
+      "category": "tree",
+      "radius_m": 3.0,
+      "color": "#2C7553",
+      "symbol": "circle",
+      "plant_id": null
+    },
+    {
+      "id": "T2",
+      "name": "Компактное дерево",
+      "category": "tree",
+      "radius_m": 1.8,
+      "color": "#648B38",
+      "symbol": "circle",
+      "plant_id": null
+    },
+    {
+      "id": "T3",
+      "name": "Кустарник",
+      "category": "shrub",
+      "radius_m": 0.9,
+      "color": "#9B704A",
+      "symbol": "circle",
+      "plant_id": null
+    },
+    {
+      "id": "T4",
+      "name": "Низкий кустарник",
+      "category": "shrub",
+      "radius_m": 0.45,
+      "color": "#795C9C",
+      "symbol": "circle",
+      "plant_id": null
+    },
+    {
+      "id": "T5",
+      "name": "Лиана / точка",
+      "category": "vine",
+      "radius_m": 0.4,
+      "color": "#357C8C",
+      "symbol": "point",
+      "plant_id": null
+    }
+  ]
+}

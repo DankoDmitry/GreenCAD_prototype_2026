@@ -1,0 +1,31 @@
+{
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "tk": 8.6,
+    "ezdxf": "1.4.4",
+    "canvas_px": [
+      878,
+      604
+    ]
+  },
+  "demo_load_ms": 13.14,
+  "process_rss_mib_at_end": 141.0,
+  "results": [
+    {
+      "synthetic_markers": 100,
+      "full_canvas_redraw_ms_median": 21.93,
+      "full_canvas_redraw_ms_max": 29.19,
+      "export_with_reread_verification_ms": 88.11,
+      "export_passed": true
+    },
+    {
+      "synthetic_markers": 1000,
+      "full_canvas_redraw_ms_median": 63.47,
+      "full_canvas_redraw_ms_max": 66.59,
+      "export_with_reread_verification_ms": 367.95,
+      "export_passed": true
+    }
+  ],
+  "limits": "Synthetic 15-entity source, virtual Linux display. Not a benchmark of large real DXF or Windows performance."
+}

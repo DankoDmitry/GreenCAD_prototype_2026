@@ -1,0 +1,13 @@
+test_add_drag_undo_redo_delete (test_gui.GuiTests.test_add_drag_undo_redo_delete) ... ok
+test_empty_selection_and_cancel_drag (test_gui.GuiTests.test_empty_selection_and_cancel_drag) ... ok
+test_mapping_dialog_does_not_change_xdata (test_gui.GuiTests.test_mapping_dialog_does_not_change_xdata) ... ok
+test_project_and_export_through_ui (test_gui.GuiTests.test_project_and_export_through_ui) ... ok
+test_select_source_and_toggle_layer (test_gui.GuiTests.test_select_source_and_toggle_layer) ... ok
+test_snap_and_properties (test_gui.GuiTests.test_snap_and_properties) ... ok
+test_type_and_plant_dialogs (test_gui.GuiTests.test_type_and_plant_dialogs) ... ok
+test_zoom_pan_coordinate_consistency (test_gui.GuiTests.test_zoom_pan_coordinate_consistency) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 5.758s
+
+OK

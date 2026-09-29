@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "input_sha256": "f4fa406aeecbf76d3d6c20964bcc6b77781d8d5cd926cfe145324e7e08f7a052",
+  "output_sha256": "daba5f94a56b5d6692374b60a2bd95dcf6b7af686dfdb88d7034e88689ea52c8",
+  "placements": 6,
+  "source_preservation": {
+    "passed": true,
+    "source_records_checked": 23,
+    "missing": [],
+    "changed": [],
+    "scope": "Сериализованные DXF-теги исходных сущностей в блоках/пространствах и существующих слоев. Не побайтовое сравнение файлов."
+  },
+  "coordinate_check": "PASS",
+  "normative_validation": "NOT_IMPLEMENTED",
+  "output": "demo_result.dxf",
+  "warnings": []
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "note": "Точное соответствие имён, не угадывание по тексту, цвету или части слова. XDATA имеет приоритет. Это наш профиль, не имена слоев из ГОСТа.",
+  "layers": {
+    "GC_SITE_BOUNDARY": {
+      "type_id": "context.project_domain",
+      "geometry_role": "BOUNDARY"
+    },
+    "GC_GREEN_ZONE": {
+      "type_id": "context.green_zone",
+      "geometry_role": "AREA"
+    },
+    "GC_ROAD_AREA": {
+      "type_id": "traffic.road",
+      "geometry_role": "AREA"
+    },
+    "GC_CURB_EDGE": {
+      "type_id": "traffic.curb",
+      "geometry_role": "EDGE"
+    },
+    "GC_SIDEWALK_AREA": {
+      "type_id": "traffic.sidewalk",
+      "geometry_role": "AREA"
+    },
+    "GC_GAS_AXIS": {
+      "type_id": "net.gas",
+      "geometry_role": "AXIS"
+    },
+    "GC_BUILDING": {
+      "type_id": "base.building",
+      "geometry_role": "OUTER_CONTOUR"
+    },
+    "GC_EXISTING_TREE": {
+      "type_id": "dendro.tree",
+      "geometry_role": "CENTER"
+    },
+    "GC_EXCLUSION": {
+      "type_id": "context.exclusion",
+      "geometry_role": "AREA"
+    }
+  }
+}

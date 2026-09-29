@@ -1,0 +1,2640 @@
+{
+  "schema_version": 1,
+  "source": "GreenCAD_registry_v1.json",
+  "source_sha256": "fb894bf6a76ec0c5955ae705333376caa6f0244f5835f25741325582b74f60f5",
+  "note": "Только индекс исходных записей. Нормы и допуски не используются. Размеры знаков не являются размерами этих растений.",
+  "plants": [
+    {
+      "id": "REC.main.conifer_tree.001",
+      "name": "Ель колючая (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 1
+    },
+    {
+      "id": "REC.main.conifer_tree.002",
+      "name": "Ель обыкновенная/европейская (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 2
+    },
+    {
+      "id": "REC.main.conifer_tree.003",
+      "name": "Лиственница американская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 3
+    },
+    {
+      "id": "REC.main.conifer_tree.004",
+      "name": "Лиственница даурская (Гмелина)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 4
+    },
+    {
+      "id": "REC.main.conifer_tree.005",
+      "name": "Лиственница европейская (опадающая) (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 5
+    },
+    {
+      "id": "REC.main.conifer_tree.006",
+      "name": "Лиственница сибирская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 6
+    },
+    {
+      "id": "REC.main.conifer_tree.007",
+      "name": "Сосна обыкновенная (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 7
+    },
+    {
+      "id": "REC.main.conifer_shrub.001",
+      "name": "Можжевельник виргинский (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 1
+    },
+    {
+      "id": "REC.main.conifer_shrub.002",
+      "name": "Можжевельник горизонтальный (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 2
+    },
+    {
+      "id": "REC.main.conifer_shrub.003",
+      "name": "Можжевельник казацкий (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 3
+    },
+    {
+      "id": "REC.main.conifer_shrub.004",
+      "name": "Можжевельник средний Пфитцериана (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 4
+    },
+    {
+      "id": "REC.main.conifer_shrub.005",
+      "name": "Можжевельник скальный (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 5
+    },
+    {
+      "id": "REC.main.conifer_shrub.006",
+      "name": "Сосна горная (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 6
+    },
+    {
+      "id": "REC.main.deciduous_tree.001",
+      "name": "Бархат Амурский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 1
+    },
+    {
+      "id": "REC.main.deciduous_tree.002",
+      "name": "Береза повислая/плакучая (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 2
+    },
+    {
+      "id": "REC.main.deciduous_tree.003",
+      "name": "Береза пушистая (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 3
+    },
+    {
+      "id": "REC.main.deciduous_tree.004",
+      "name": "Боярышник Арнольда",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 4
+    },
+    {
+      "id": "REC.main.deciduous_tree.005",
+      "name": "Боярышник крупноколючковый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 5
+    },
+    {
+      "id": "REC.main.deciduous_tree.006",
+      "name": "Боярышник перистонадрезанный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 6
+    },
+    {
+      "id": "REC.main.deciduous_tree.007",
+      "name": "Боярышник полумягкий/мягковатый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 7
+    },
+    {
+      "id": "REC.main.deciduous_tree.008",
+      "name": "Боярышник сливолистный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 8
+    },
+    {
+      "id": "REC.main.deciduous_tree.009",
+      "name": "Боярышник точечный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 9
+    },
+    {
+      "id": "REC.main.deciduous_tree.010",
+      "name": "Боярышник чёрный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 10
+    },
+    {
+      "id": "REC.main.deciduous_tree.011",
+      "name": "Вишня обыкновенная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 11
+    },
+    {
+      "id": "REC.main.deciduous_tree.012",
+      "name": "Вяз гибридный Резиста",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 12
+    },
+    {
+      "id": "REC.main.deciduous_tree.013",
+      "name": "Вяз перисто-ветвистый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 13
+    },
+    {
+      "id": "REC.main.deciduous_tree.014",
+      "name": "Вяз приземистый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 14
+    },
+    {
+      "id": "REC.main.deciduous_tree.015",
+      "name": "Груша уссурийская",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 15
+    },
+    {
+      "id": "REC.main.deciduous_tree.016",
+      "name": "Дуб красный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 16
+    },
+    {
+      "id": "REC.main.deciduous_tree.017",
+      "name": "Дуб черешчатый (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 17
+    },
+    {
+      "id": "REC.main.deciduous_tree.018",
+      "name": "Ива белая (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 18
+    },
+    {
+      "id": "REC.main.deciduous_tree.019",
+      "name": "Ива ломкая ф. «Bullata»",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 19
+    },
+    {
+      "id": "REC.main.deciduous_tree.020",
+      "name": "Ива прутовидная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 20
+    },
+    {
+      "id": "REC.main.deciduous_tree.021",
+      "name": "Ивы свердловской селекции (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 21
+    },
+    {
+      "id": "REC.main.deciduous_tree.022",
+      "name": "Ива Шверина",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 22
+    },
+    {
+      "id": "REC.main.deciduous_tree.023",
+      "name": "Кладрастис желтый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 23
+    },
+    {
+      "id": "REC.main.deciduous_tree.024",
+      "name": "Клен гиннала/приречный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 24
+    },
+    {
+      "id": "REC.main.deciduous_tree.025",
+      "name": "Клен красный (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 25
+    },
+    {
+      "id": "REC.main.deciduous_tree.026",
+      "name": "Клен остролистный (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 26
+    },
+    {
+      "id": "REC.main.deciduous_tree.027",
+      "name": "Клен сахаристый/серебристый (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 27
+    },
+    {
+      "id": "REC.main.deciduous_tree.028",
+      "name": "Клен татарский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 28
+    },
+    {
+      "id": "REC.main.deciduous_tree.029",
+      "name": "Конский каштан восьмитычинковый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 29
+    },
+    {
+      "id": "REC.main.deciduous_tree.030",
+      "name": "Конский каштан мясо-красный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 30
+    },
+    {
+      "id": "REC.main.deciduous_tree.031",
+      "name": "Липа американская",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 31
+    },
+    {
+      "id": "REC.main.deciduous_tree.032",
+      "name": "Липа крупнолистная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 32
+    },
+    {
+      "id": "REC.main.deciduous_tree.033",
+      "name": "Липа мелколистная/сердцевидная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 33
+    },
+    {
+      "id": "REC.main.deciduous_tree.034",
+      "name": "Липа обыкновенная/европейская (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 34
+    },
+    {
+      "id": "REC.main.deciduous_tree.035",
+      "name": "Ольха серая (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 35
+    },
+    {
+      "id": "REC.main.deciduous_tree.036",
+      "name": "Ольха черная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 36
+    },
+    {
+      "id": "REC.main.deciduous_tree.037",
+      "name": "Орех маньчжурский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 37
+    },
+    {
+      "id": "REC.main.deciduous_tree.038",
+      "name": "Орех серый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 38
+    },
+    {
+      "id": "REC.main.deciduous_tree.039",
+      "name": "Робиния лжеакация/акация белая",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 39
+    },
+    {
+      "id": "REC.main.deciduous_tree.040",
+      "name": "Рябина ария (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 40
+    },
+    {
+      "id": "REC.main.deciduous_tree.041",
+      "name": "Рябина гибридная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 41
+    },
+    {
+      "id": "REC.main.deciduous_tree.042",
+      "name": "Рябина обыкновенная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 42
+    },
+    {
+      "id": "REC.main.deciduous_tree.043",
+      "name": "Рябина промежуточная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 43
+    },
+    {
+      "id": "REC.main.deciduous_tree.044",
+      "name": "Рябина тюрингская/дуболистная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 44
+    },
+    {
+      "id": "REC.main.deciduous_tree.045",
+      "name": "Слива домашняя (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 45
+    },
+    {
+      "id": "REC.main.deciduous_tree.046",
+      "name": "Слива колючая/терн",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 46
+    },
+    {
+      "id": "REC.main.deciduous_tree.047",
+      "name": "Слива растопыренная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 47
+    },
+    {
+      "id": "REC.main.deciduous_tree.048",
+      "name": "Тополь бальзамический (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 48
+    },
+    {
+      "id": "REC.main.deciduous_tree.049",
+      "name": "Тополь белый/серебристый (муж. клоны) (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 49
+    },
+    {
+      "id": "REC.main.deciduous_tree.050",
+      "name": "Тополь берлинский (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 50
+    },
+    {
+      "id": "REC.main.deciduous_tree.051",
+      "name": "Тополь дрожащий/осина (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 51
+    },
+    {
+      "id": "REC.main.deciduous_tree.052",
+      "name": "Тополь канадский (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 52
+    },
+    {
+      "id": "REC.main.deciduous_tree.053",
+      "name": "Тополь Симона (муж. клоны) (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 53
+    },
+    {
+      "id": "REC.main.deciduous_tree.054",
+      "name": "Тополь советский Пирамидальный (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 54
+    },
+    {
+      "id": "REC.main.deciduous_tree.055",
+      "name": "Черемуха виргинская (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 55
+    },
+    {
+      "id": "REC.main.deciduous_tree.056",
+      "name": "Черемуха Маака",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 56
+    },
+    {
+      "id": "REC.main.deciduous_tree.057",
+      "name": "Черемуха обыкновенная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 57
+    },
+    {
+      "id": "REC.main.deciduous_tree.058",
+      "name": "Черемуха поздняя (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 58
+    },
+    {
+      "id": "REC.main.deciduous_tree.059",
+      "name": "Яблоня Недзведцкого",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 59
+    },
+    {
+      "id": "REC.main.deciduous_tree.060",
+      "name": "Яблоня обильноцветущая",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 60
+    },
+    {
+      "id": "REC.main.deciduous_tree.061",
+      "name": "Яблоня сливолистная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 61
+    },
+    {
+      "id": "REC.main.deciduous_tree.062",
+      "name": "Яблоня ягодная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "main",
+      "number": 62
+    },
+    {
+      "id": "REC.main.deciduous_shrub.001",
+      "name": "Аморфа кустарниковая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 1
+    },
+    {
+      "id": "REC.main.deciduous_shrub.002",
+      "name": "Арония черноплодная/Мичурина (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 2
+    },
+    {
+      "id": "REC.main.deciduous_shrub.003",
+      "name": "Барбарис амурский",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 3
+    },
+    {
+      "id": "REC.main.deciduous_shrub.004",
+      "name": "Барбарис обыкновенный (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 4
+    },
+    {
+      "id": "REC.main.deciduous_shrub.005",
+      "name": "Барбарис оттавский (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 5
+    },
+    {
+      "id": "REC.main.deciduous_shrub.006",
+      "name": "Барбарис Тунберга (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 6
+    },
+    {
+      "id": "REC.main.deciduous_shrub.007",
+      "name": "Бересклет бородавчатый",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 7
+    },
+    {
+      "id": "REC.main.deciduous_shrub.008",
+      "name": "Бересклет европейский (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 8
+    },
+    {
+      "id": "REC.main.deciduous_shrub.009",
+      "name": "Бересклет крылатый (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 9
+    },
+    {
+      "id": "REC.main.deciduous_shrub.010",
+      "name": "Бересклет Маака",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 10
+    },
+    {
+      "id": "REC.main.deciduous_shrub.011",
+      "name": "Бирючина обыкновенная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 11
+    },
+    {
+      "id": "REC.main.deciduous_shrub.012",
+      "name": "Боярышник Арнольда",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 12
+    },
+    {
+      "id": "REC.main.deciduous_shrub.013",
+      "name": "Боярышник кроваво-красный",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 13
+    },
+    {
+      "id": "REC.main.deciduous_shrub.014",
+      "name": "Боярышник обыкновенный/колючий",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 14
+    },
+    {
+      "id": "REC.main.deciduous_shrub.015",
+      "name": "Боярышник однопестичный (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 15
+    },
+    {
+      "id": "REC.main.deciduous_shrub.016",
+      "name": "Боярышник перистонадрезанный",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 16
+    },
+    {
+      "id": "REC.main.deciduous_shrub.017",
+      "name": "Боярышник полумягкий/мягковатый",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 17
+    },
+    {
+      "id": "REC.main.deciduous_shrub.018",
+      "name": "Боярышник сливолистный",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 18
+    },
+    {
+      "id": "REC.main.deciduous_shrub.019",
+      "name": "Бузина канадская «Аurea»",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 19
+    },
+    {
+      "id": "REC.main.deciduous_shrub.020",
+      "name": "Бузина красная/кистистая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 20
+    },
+    {
+      "id": "REC.main.deciduous_shrub.021",
+      "name": "Бузина черная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 21
+    },
+    {
+      "id": "REC.main.deciduous_shrub.022",
+      "name": "Гортензия Бреттшнейдера",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 22
+    },
+    {
+      "id": "REC.main.deciduous_shrub.023",
+      "name": "Гортензия древовидная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 23
+    },
+    {
+      "id": "REC.main.deciduous_shrub.024",
+      "name": "Гортензия метельчатая (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 24
+    },
+    {
+      "id": "REC.main.deciduous_shrub.025",
+      "name": "Дерен белый/сибирский (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 25
+    },
+    {
+      "id": "REC.main.deciduous_shrub.026",
+      "name": "Дерен кроваво-красный (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 26
+    },
+    {
+      "id": "REC.main.deciduous_shrub.027",
+      "name": "Дерен отпрысковый ф. «Флавирамея»",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 27
+    },
+    {
+      "id": "REC.main.deciduous_shrub.028",
+      "name": "Жимолость альпийская",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 28
+    },
+    {
+      "id": "REC.main.deciduous_shrub.029",
+      "name": "Жимолость золотистая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 29
+    },
+    {
+      "id": "REC.main.deciduous_shrub.030",
+      "name": "Жимолость Королькова",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 30
+    },
+    {
+      "id": "REC.main.deciduous_shrub.031",
+      "name": "Жимолость Маака",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 31
+    },
+    {
+      "id": "REC.main.deciduous_shrub.032",
+      "name": "Жимолость Максимовича",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 32
+    },
+    {
+      "id": "REC.main.deciduous_shrub.033",
+      "name": "Жимолость обыкновенная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 33
+    },
+    {
+      "id": "REC.main.deciduous_shrub.034",
+      "name": "Жимолость татарская (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 34
+    },
+    {
+      "id": "REC.main.deciduous_shrub.035",
+      "name": "Ива пурпурная ф. «Nana»",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 35
+    },
+    {
+      "id": "REC.main.deciduous_shrub.036",
+      "name": "Ирга канадская/Ирга Ламарка",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 36
+    },
+    {
+      "id": "REC.main.deciduous_shrub.037",
+      "name": "Ирга колосистая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 37
+    },
+    {
+      "id": "REC.main.deciduous_shrub.038",
+      "name": "Ирга круглолистная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 38
+    },
+    {
+      "id": "REC.main.deciduous_shrub.039",
+      "name": "Калина гордовина (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 39
+    },
+    {
+      "id": "REC.main.deciduous_shrub.040",
+      "name": "Калина обыкновенная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 40
+    },
+    {
+      "id": "REC.main.deciduous_shrub.041",
+      "name": "Калина Саржента (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 41
+    },
+    {
+      "id": "REC.main.deciduous_shrub.042",
+      "name": "Карагана древовидная/акация желтая (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 42
+    },
+    {
+      "id": "REC.main.deciduous_shrub.043",
+      "name": "Карагана кустарниковая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 43
+    },
+    {
+      "id": "REC.main.deciduous_shrub.044",
+      "name": "Кизильник блестящий",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 44
+    },
+    {
+      "id": "REC.main.deciduous_shrub.045",
+      "name": "Лапчатка кустарниковая (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 45
+    },
+    {
+      "id": "REC.main.deciduous_shrub.046",
+      "name": "Лещина обыкновенная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 46
+    },
+    {
+      "id": "REC.main.deciduous_shrub.047",
+      "name": "Лещина пурпурнолистная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 47
+    },
+    {
+      "id": "REC.main.deciduous_shrub.048",
+      "name": "Лох серебристый",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 48
+    },
+    {
+      "id": "REC.main.deciduous_shrub.049",
+      "name": "Лох узколистный",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 49
+    },
+    {
+      "id": "REC.main.deciduous_shrub.050",
+      "name": "Магония падуболистная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 50
+    },
+    {
+      "id": "REC.main.deciduous_shrub.051",
+      "name": "Пузыреплодник калинолистный (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 51
+    },
+    {
+      "id": "REC.main.deciduous_shrub.052",
+      "name": "Роза бедренцеволистная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 52
+    },
+    {
+      "id": "REC.main.deciduous_shrub.053",
+      "name": "Роза морщинистая (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 53
+    },
+    {
+      "id": "REC.main.deciduous_shrub.054",
+      "name": "Роза сизая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 54
+    },
+    {
+      "id": "REC.main.deciduous_shrub.055",
+      "name": "Роза собачья",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 55
+    },
+    {
+      "id": "REC.main.deciduous_shrub.056",
+      "name": "Рябинник рябинолистный (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 56
+    },
+    {
+      "id": "REC.main.deciduous_shrub.057",
+      "name": "Сирень амурская",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 57
+    },
+    {
+      "id": "REC.main.deciduous_shrub.058",
+      "name": "Сирень венгерская",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 58
+    },
+    {
+      "id": "REC.main.deciduous_shrub.059",
+      "name": "Сирень обыкновенная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 59
+    },
+    {
+      "id": "REC.main.deciduous_shrub.060",
+      "name": "Сирень Престон (сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 60
+    },
+    {
+      "id": "REC.main.deciduous_shrub.061",
+      "name": "Смородина альпийская (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 61
+    },
+    {
+      "id": "REC.main.deciduous_shrub.062",
+      "name": "Смородина железистая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 62
+    },
+    {
+      "id": "REC.main.deciduous_shrub.063",
+      "name": "Смородина золотистая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 63
+    },
+    {
+      "id": "REC.main.deciduous_shrub.064",
+      "name": "Смородина красная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 64
+    },
+    {
+      "id": "REC.main.deciduous_shrub.065",
+      "name": "Снежноягодник белый (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 65
+    },
+    {
+      "id": "REC.main.deciduous_shrub.066",
+      "name": "Спирея березолистная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 66
+    },
+    {
+      "id": "REC.main.deciduous_shrub.067",
+      "name": "Спирея Билларда (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 67
+    },
+    {
+      "id": "REC.main.deciduous_shrub.068",
+      "name": "Спирея Бумальда (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 68
+    },
+    {
+      "id": "REC.main.deciduous_shrub.069",
+      "name": "Спирея Вангутта (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 69
+    },
+    {
+      "id": "REC.main.deciduous_shrub.070",
+      "name": "Спирея дубравколистная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 70
+    },
+    {
+      "id": "REC.main.deciduous_shrub.071",
+      "name": "Спирея Дугласа (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 71
+    },
+    {
+      "id": "REC.main.deciduous_shrub.072",
+      "name": "Спирея иволистная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 72
+    },
+    {
+      "id": "REC.main.deciduous_shrub.073",
+      "name": "Спирея ниппонская (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 73
+    },
+    {
+      "id": "REC.main.deciduous_shrub.074",
+      "name": "Спирея острозубчатая",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 74
+    },
+    {
+      "id": "REC.main.deciduous_shrub.075",
+      "name": "Спирея серая (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 75
+    },
+    {
+      "id": "REC.main.deciduous_shrub.076",
+      "name": "Спирея средняя (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 76
+    },
+    {
+      "id": "REC.main.deciduous_shrub.077",
+      "name": "Спирея трехлопастная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 77
+    },
+    {
+      "id": "REC.main.deciduous_shrub.078",
+      "name": "Спирея японская (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 78
+    },
+    {
+      "id": "REC.main.deciduous_shrub.079",
+      "name": "Форзиция обратнояйцевидная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 79
+    },
+    {
+      "id": "REC.main.deciduous_shrub.080",
+      "name": "Хеномелес японский",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 80
+    },
+    {
+      "id": "REC.main.deciduous_shrub.081",
+      "name": "Чубушник венечный (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 81
+    },
+    {
+      "id": "REC.main.deciduous_shrub.082",
+      "name": "Чубушник Лемуана (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 82
+    },
+    {
+      "id": "REC.main.deciduous_shrub.083",
+      "name": "Чубушник мелколистный",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "main",
+      "number": 83
+    },
+    {
+      "id": "REC.main.vine.001",
+      "name": "Актинидия коломикта",
+      "group": "vine",
+      "source": "REC",
+      "section": "main",
+      "number": 1
+    },
+    {
+      "id": "REC.main.vine.002",
+      "name": "Виноград амурский",
+      "group": "vine",
+      "source": "REC",
+      "section": "main",
+      "number": 2
+    },
+    {
+      "id": "REC.main.vine.003",
+      "name": "Девичий виноград пятилисточковый",
+      "group": "vine",
+      "source": "REC",
+      "section": "main",
+      "number": 3
+    },
+    {
+      "id": "REC.main.vine.004",
+      "name": "Жимолость каприфоль",
+      "group": "vine",
+      "source": "REC",
+      "section": "main",
+      "number": 4
+    },
+    {
+      "id": "REC.main.vine.005",
+      "name": "Клематис сибирский",
+      "group": "vine",
+      "source": "REC",
+      "section": "main",
+      "number": 5
+    },
+    {
+      "id": "REC.main.vine.006",
+      "name": "Лимонник китайский",
+      "group": "vine",
+      "source": "REC",
+      "section": "main",
+      "number": 6
+    },
+    {
+      "id": "REC.additional.conifer_tree.001",
+      "name": "Ель канадская/сизая (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 1
+    },
+    {
+      "id": "REC.additional.conifer_tree.002",
+      "name": "Ель сербская (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 2
+    },
+    {
+      "id": "REC.additional.conifer_tree.003",
+      "name": "Ель шероховатая",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 3
+    },
+    {
+      "id": "REC.additional.conifer_tree.004",
+      "name": "Ель Энгельмана",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 4
+    },
+    {
+      "id": "REC.additional.conifer_tree.005",
+      "name": "Кипарисовик горохоплодный",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 5
+    },
+    {
+      "id": "REC.additional.conifer_tree.006",
+      "name": "Лиственница Кемфера",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 6
+    },
+    {
+      "id": "REC.additional.conifer_tree.007",
+      "name": "Лиственница Сукачева",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 7
+    },
+    {
+      "id": "REC.additional.conifer_tree.008",
+      "name": "Пихта бальзамическая (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 8
+    },
+    {
+      "id": "REC.additional.conifer_tree.009",
+      "name": "Пихта Вича",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 9
+    },
+    {
+      "id": "REC.additional.conifer_tree.010",
+      "name": "Пихта одноцветная (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 10
+    },
+    {
+      "id": "REC.additional.conifer_tree.011",
+      "name": "Пихта сибирская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 11
+    },
+    {
+      "id": "REC.additional.conifer_tree.012",
+      "name": "Псевдотсуга Мензиса сизая",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 12
+    },
+    {
+      "id": "REC.additional.conifer_tree.013",
+      "name": "Сосна Веймутова (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 13
+    },
+    {
+      "id": "REC.additional.conifer_tree.014",
+      "name": "Сосна кедровая европейская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 14
+    },
+    {
+      "id": "REC.additional.conifer_tree.015",
+      "name": "Сосна кедровая корейская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 15
+    },
+    {
+      "id": "REC.additional.conifer_tree.016",
+      "name": "Сосна кедровая сибирская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 16
+    },
+    {
+      "id": "REC.additional.conifer_tree.017",
+      "name": "Сосна кедровая стланиковая (кедровый стланик)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 17
+    },
+    {
+      "id": "REC.additional.conifer_tree.018",
+      "name": "Сосна румелийская (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 18
+    },
+    {
+      "id": "REC.additional.conifer_tree.019",
+      "name": "Сосна черная австрийская",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 19
+    },
+    {
+      "id": "REC.additional.conifer_tree.020",
+      "name": "Туя западная (формы и сорта)",
+      "group": "conifer_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 20
+    },
+    {
+      "id": "REC.additional.conifer_shrub.001",
+      "name": "Микробиота перекрёстнопарная",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 1
+    },
+    {
+      "id": "REC.additional.conifer_shrub.002",
+      "name": "Можжевельник китайский (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 2
+    },
+    {
+      "id": "REC.additional.conifer_shrub.003",
+      "name": "Можжевельник чешуйчатый (формы и сорта)",
+      "group": "conifer_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 3
+    },
+    {
+      "id": "REC.additional.deciduous_tree.001",
+      "name": "Багряник японский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 1
+    },
+    {
+      "id": "REC.additional.deciduous_tree.002",
+      "name": "Береза бумажная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 2
+    },
+    {
+      "id": "REC.additional.deciduous_tree.003",
+      "name": "Берёза вишнёвая",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 3
+    },
+    {
+      "id": "REC.additional.deciduous_tree.004",
+      "name": "Береза ребристая (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 4
+    },
+    {
+      "id": "REC.additional.deciduous_tree.005",
+      "name": "Береза черная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 5
+    },
+    {
+      "id": "REC.additional.deciduous_tree.006",
+      "name": "Береза Эрмана/каменная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 6
+    },
+    {
+      "id": "REC.additional.deciduous_tree.007",
+      "name": "Боярышник зеленомясый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 7
+    },
+    {
+      "id": "REC.additional.deciduous_tree.008",
+      "name": "Вяз шершавый (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 8
+    },
+    {
+      "id": "REC.additional.deciduous_tree.009",
+      "name": "Груша иволистная (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 9
+    },
+    {
+      "id": "REC.additional.deciduous_tree.010",
+      "name": "Груша обыкновенная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 10
+    },
+    {
+      "id": "REC.additional.deciduous_tree.011",
+      "name": "Дуб монгольский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 11
+    },
+    {
+      "id": "REC.additional.deciduous_tree.012",
+      "name": "Ива козья (формы и сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 12
+    },
+    {
+      "id": "REC.additional.deciduous_tree.013",
+      "name": "Ива пятитычинковая",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 13
+    },
+    {
+      "id": "REC.additional.deciduous_tree.014",
+      "name": "Ива росистая",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 14
+    },
+    {
+      "id": "REC.additional.deciduous_tree.015",
+      "name": "Ива цельнолистная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 15
+    },
+    {
+      "id": "REC.additional.deciduous_tree.016",
+      "name": "Клен зеленокорый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 16
+    },
+    {
+      "id": "REC.additional.deciduous_tree.017",
+      "name": "Клён колосистый",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 17
+    },
+    {
+      "id": "REC.additional.deciduous_tree.018",
+      "name": "Клен ложнозибольдов",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 18
+    },
+    {
+      "id": "REC.additional.deciduous_tree.019",
+      "name": "Клен маньчжурский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 19
+    },
+    {
+      "id": "REC.additional.deciduous_tree.020",
+      "name": "Клён мелколистный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 20
+    },
+    {
+      "id": "REC.additional.deciduous_tree.021",
+      "name": "Липа войлочная/серебристая",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 21
+    },
+    {
+      "id": "REC.additional.deciduous_tree.022",
+      "name": "Липа монгольская",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 22
+    },
+    {
+      "id": "REC.additional.deciduous_tree.023",
+      "name": "Маакия амурская",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 23
+    },
+    {
+      "id": "REC.additional.deciduous_tree.024",
+      "name": "Рябина Арнольда (сорта)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 24
+    },
+    {
+      "id": "REC.additional.deciduous_tree.025",
+      "name": "Рябина бузинолистная",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 25
+    },
+    {
+      "id": "REC.additional.deciduous_tree.026",
+      "name": "Рябина кашмирская",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 26
+    },
+    {
+      "id": "REC.additional.deciduous_tree.027",
+      "name": "Рябина Мужо",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 27
+    },
+    {
+      "id": "REC.additional.deciduous_tree.028",
+      "name": "Тополь лавролистный",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 28
+    },
+    {
+      "id": "REC.additional.deciduous_tree.029",
+      "name": "Тополь Максимовича (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 29
+    },
+    {
+      "id": "REC.additional.deciduous_tree.030",
+      "name": "Тополь черный (муж. клоны)",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 30
+    },
+    {
+      "id": "REC.additional.deciduous_tree.031",
+      "name": "Черемуха пенсильванская",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 31
+    },
+    {
+      "id": "REC.additional.deciduous_tree.032",
+      "name": "Яблоня Зибольда",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 32
+    },
+    {
+      "id": "REC.additional.deciduous_tree.033",
+      "name": "Яблоня Саржента",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 33
+    },
+    {
+      "id": "REC.additional.deciduous_tree.034",
+      "name": "Ясень маньчжурский",
+      "group": "deciduous_tree",
+      "source": "REC",
+      "section": "additional",
+      "number": 34
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.001",
+      "name": "Барбарис Вильсон",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 1
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.002",
+      "name": "Бересклет Форчуна (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 2
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.003",
+      "name": "Боярышник Максимовича",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 3
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.004",
+      "name": "Вейгела Миддендорфа",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 4
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.005",
+      "name": "Вишня войлочная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 5
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.006",
+      "name": "Дёрен Бейли",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 6
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.007",
+      "name": "Дёрен Вальтера",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 7
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.008",
+      "name": "Жёстер даурский",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 8
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.009",
+      "name": "Жимолость Максимовича",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 9
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.010",
+      "name": "Жимолость покрывальная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 10
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.011",
+      "name": "Кизильник горизонтальный",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 11
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.012",
+      "name": "Миндаль низкий/степной",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 12
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.013",
+      "name": "Ракитник русский",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 13
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.014",
+      "name": "Рододендрон даурский",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 14
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.015",
+      "name": "Сирень Вольфа",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 15
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.016",
+      "name": "Сирень Комарова",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 16
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.017",
+      "name": "Скумпия обыкновенная/кожевенная (формы и сорта)",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 17
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.018",
+      "name": "Снежноягодник Доренбоза",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 18
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.019",
+      "name": "Стефанандра надрезаннолистная",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 19
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.020",
+      "name": "Стефанандра Танаки",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 20
+    },
+    {
+      "id": "REC.additional.deciduous_shrub.021",
+      "name": "Экзохорда тяньшанская",
+      "group": "deciduous_shrub",
+      "source": "REC",
+      "section": "additional",
+      "number": 21
+    },
+    {
+      "id": "REC.additional.vine.001",
+      "name": "Аристолохия крупнолистная",
+      "group": "vine",
+      "source": "REC",
+      "section": "additional",
+      "number": 1
+    },
+    {
+      "id": "REC.additional.vine.002",
+      "name": "Аристолохия маньчжурская",
+      "group": "vine",
+      "source": "REC",
+      "section": "additional",
+      "number": 2
+    },
+    {
+      "id": "REC.additional.vine.003",
+      "name": "Гортензия черешковая",
+      "group": "vine",
+      "source": "REC",
+      "section": "additional",
+      "number": 3
+    },
+    {
+      "id": "REC.additional.vine.004",
+      "name": "Древогубец круглолистный",
+      "group": "vine",
+      "source": "REC",
+      "section": "additional",
+      "number": 4
+    },
+    {
+      "id": "REC.additional.vine.005",
+      "name": "Жимолость вьющаяся",
+      "group": "vine",
+      "source": "REC",
+      "section": "additional",
+      "number": 5
+    },
+    {
+      "id": "REC.additional.vine.006",
+      "name": "Клематис тангутский",
+      "group": "vine",
+      "source": "REC",
+      "section": "additional",
+      "number": 6
+    },
+    {
+      "id": "PER.perspective.conifer_tree.001",
+      "name": "Пихта белокорая/почкочешуйная",
+      "group": "conifer_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 1
+    },
+    {
+      "id": "PER.perspective.conifer_tree.002",
+      "name": "Пихта цельнолистная",
+      "group": "conifer_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 2
+    },
+    {
+      "id": "PER.perspective.conifer_tree.003",
+      "name": "Сосна Мюррея",
+      "group": "conifer_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 3
+    },
+    {
+      "id": "PER.perspective.conifer_tree.004",
+      "name": "Тсуга канадская",
+      "group": "conifer_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 4
+    },
+    {
+      "id": "PER.perspective.conifer_tree.005",
+      "name": "Плосковеточник восточный",
+      "group": "conifer_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 5
+    },
+    {
+      "id": "PER.perspective.conifer_shrub.001",
+      "name": "Тисс остроконечный (сорта)",
+      "group": "conifer_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 1
+    },
+    {
+      "id": "PER.perspective.conifer_shrub.002",
+      "name": "Тисс средний (сорта)",
+      "group": "conifer_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 2
+    },
+    {
+      "id": "PER.perspective.conifer_shrub.003",
+      "name": "Тисс ягодный (малорослые сорта)",
+      "group": "conifer_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 3
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.001",
+      "name": "Абрикос маньчжурский (мелкоплодная форма)",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 1
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.002",
+      "name": "Берёза аллеганская",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 2
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.003",
+      "name": "Берёза даурская",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 3
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.004",
+      "name": "Берёза плосколистная",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 4
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.005",
+      "name": "Боярышник согнутостолбиковый",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 5
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.006",
+      "name": "Вяз Андросова",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 6
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.007",
+      "name": "Вяз японский/Давида",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 7
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.008",
+      "name": "Ива волчниковая",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 8
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.009",
+      "name": "Ива каспийская",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 9
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.010",
+      "name": "Ива тонкостолбиковая",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 10
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.011",
+      "name": "Клён бородатый",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 11
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.012",
+      "name": "Конский каштан голый",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 12
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.013",
+      "name": "Лещина древовидная",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 13
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.014",
+      "name": "Магнолия кобус",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 14
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.015",
+      "name": "Рябина Альбова",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 15
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.016",
+      "name": "Рябина Вильморена",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 16
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.017",
+      "name": "Рябина кавказская",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 17
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.018",
+      "name": "Рябина Кёне",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 18
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.019",
+      "name": "Рябина смешанная",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 19
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.020",
+      "name": "Черёмуха Грея",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 20
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.021",
+      "name": "Черёмуха Сьори",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 21
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.022",
+      "name": "Слива Саржента",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 22
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.023",
+      "name": "Чозения арбутолистная",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 23
+    },
+    {
+      "id": "PER.perspective.deciduous_tree.024",
+      "name": "Яблоня Сиверса",
+      "group": "deciduous_tree",
+      "source": "PER",
+      "section": "perspective",
+      "number": 24
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.001",
+      "name": "Акантопанакс сидячецветковый",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 1
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.002",
+      "name": "Аралия высокая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 2
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.003",
+      "name": "Арония арбутолистная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 3
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.004",
+      "name": "Барбарис выемчатый",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 4
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.005",
+      "name": "Барбарис Дильса",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 5
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.006",
+      "name": "Бересклет большекрылый",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 6
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.007",
+      "name": "Бересклет Гамильтона",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 7
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.008",
+      "name": "Бересклет малоцветковый",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 8
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.009",
+      "name": "Вейгела ранняя",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 9
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.010",
+      "name": "Восковница пенсильваннская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 10
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.011",
+      "name": "Восковница обыкновенная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 11
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.012",
+      "name": "Гамамелис виргинский",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 12
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.013",
+      "name": "Дейция амурская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 13
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.014",
+      "name": "Диервилла ручейная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 14
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.015",
+      "name": "Жимолость мелколистная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 15
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.016",
+      "name": "Жимолость Толмачёва",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 16
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.017",
+      "name": "Калина сливолистная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 17
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.018",
+      "name": "Лещина Зибольда",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 18
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.019",
+      "name": "Ольха зеленая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 19
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.020",
+      "name": "Птелея трёхлистная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 20
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.021",
+      "name": "Рододендрон жёлтый",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 21
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.022",
+      "name": "Рододендрон короткоплодный (сорта)",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 22
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.023",
+      "name": "Рододендрон канадский гибридные (сорта)",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 23
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.024",
+      "name": "Рододендрон кэтевбинский",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 24
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.025",
+      "name": "Рододендрон мягкий",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 25
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.026",
+      "name": "Рододендрон ноготковидный",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 26
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.027",
+      "name": "Рододендрон Смирнова",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 27
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.028",
+      "name": "Рододендрон Фори",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 28
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.029",
+      "name": "Рододендрон японский",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 29
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.030",
+      "name": "Роза даурская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 30
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.031",
+      "name": "Роза калифорнийская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 31
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.032",
+      "name": "Роза Федченко",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 32
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.033",
+      "name": "Сирень пекинская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 33
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.034",
+      "name": "Сирень бархатистая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 34
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.035",
+      "name": "Сирень мохнатая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 35
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.036",
+      "name": "Сирень пониклая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 36
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.037",
+      "name": "Сирень юньнаньская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 37
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.038",
+      "name": "Спирея длиннопочечная",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 38
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.039",
+      "name": "Спирея извилистая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 39
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.040",
+      "name": "Форзиция свисающая",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 40
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.041",
+      "name": "Чубушник Гордона",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 41
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.042",
+      "name": "Чубушник пушистый",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 42
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.043",
+      "name": "Чубушник тонколистный",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 43
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.044",
+      "name": "Чубушник Шренка",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 44
+    },
+    {
+      "id": "PER.perspective.deciduous_shrub.045",
+      "name": "Экзохорда тяньшанская",
+      "group": "deciduous_shrub",
+      "source": "PER",
+      "section": "perspective",
+      "number": 45
+    },
+    {
+      "id": "PER.perspective.vine.001",
+      "name": "Актинидия многобрачная/полигамная",
+      "group": "vine",
+      "source": "PER",
+      "section": "perspective",
+      "number": 1
+    },
+    {
+      "id": "PER.perspective.vine.002",
+      "name": "Виноград лисий",
+      "group": "vine",
+      "source": "PER",
+      "section": "perspective",
+      "number": 2
+    },
+    {
+      "id": "PER.perspective.vine.003",
+      "name": "Виноград приречный",
+      "group": "vine",
+      "source": "PER",
+      "section": "perspective",
+      "number": 3
+    },
+    {
+      "id": "PER.perspective.vine.004",
+      "name": "Виноградовник аконитолистный",
+      "group": "vine",
+      "source": "PER",
+      "section": "perspective",
+      "number": 4
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "scope": "Проверки выбранного набора; не комплексная нормативная экспертиза. Численные проектные пороги не извлечены из нормативов.",
+  "registry_sha256": "fb894bf6a76ec0c5955ae705333376caa6f0244f5835f25741325582b74f60f5",
+  "site_dictionary_sha256": "09dcc2f50b273c3cb8d9e754e98dabb58ca456bbe6a849d18895481a50c600ba",
+  "rules": [
+    {
+      "id": "R.domain",
+      "label": "Центр посадки внутри зелёной зоны",
+      "operator": "inside",
+      "kind": "PROJECT",
+      "default_enabled": true,
+      "description": "Проверяется центр, включая границу. Размер условного знака не используется.",
+      "object_types": [
+        "context.green_zone"
+      ],
+      "roles": [
+        "AREA"
+      ],
+      "field_id": "mask.domain",
+      "registry_ids": [
+        "R.domain"
+      ],
+      "provenance": [
+        {
+          "source_id": "MODEL",
+          "locator": "Проектная постановка"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "project.excluded",
+      "label": "Центр вне запрещённых площадей",
+      "operator": "outside",
+      "kind": "PROJECT",
+      "default_enabled": true,
+      "description": "Явные зоны исключения, площади дорог, тротуаров, зданий. Это выбранная проектная модель, не полный перечень нормативных запретов.",
+      "object_types": [
+        "context.exclusion",
+        "traffic.road",
+        "traffic.drive",
+        "traffic.sidewalk",
+        "traffic.footpath",
+        "base.building"
+      ],
+      "roles": [
+        "AREA",
+        "OUTER_CONTOUR"
+      ],
+      "field_id": "mask.excluded",
+      "registry_ids": [
+        "R.domain"
+      ],
+      "provenance": [
+        {
+          "source_id": "MODEL",
+          "locator": "Проектная постановка"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "project.gas",
+      "label": "От оси газопровода",
+      "operator": "distance",
+      "kind": "PROJECT_TEST",
+      "default_enabled": true,
+      "description": "Настраиваемый проектный отступ. Начальное число — тестовый параметр, НЕ норматив. Корнезащита его не уменьшает.",
+      "object_types": [
+        "net.gas"
+      ],
+      "roles": [
+        "AXIS"
+      ],
+      "threshold_m": 3.0,
+      "field_id": "F.gas_axis",
+      "registry_ids": [],
+      "provenance": [
+        {
+          "source_id": "PROJECT_TEST",
+          "locator": "Выбранные условия проекта; не норматив"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "project.curb",
+      "label": "От края бордюра",
+      "operator": "distance",
+      "kind": "PROJECT_TEST",
+      "default_enabled": false,
+      "description": "Настраиваемый проектный отступ. Начальное число — тестовый параметр, НЕ норматив. Корнезащита его не уменьшает.",
+      "object_types": [
+        "traffic.curb"
+      ],
+      "roles": [
+        "EDGE"
+      ],
+      "threshold_m": 1.0,
+      "field_id": "F.curb",
+      "registry_ids": [],
+      "provenance": [
+        {
+          "source_id": "PROJECT_TEST",
+          "locator": "Выбранные условия проекта; не норматив"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "project.wall",
+      "label": "От наружного контура здания",
+      "operator": "distance",
+      "kind": "PROJECT_TEST",
+      "default_enabled": false,
+      "description": "Настраиваемый проектный отступ. Начальное число — тестовый параметр, НЕ норматив. Корнезащита его не уменьшает.",
+      "object_types": [
+        "base.building"
+      ],
+      "roles": [
+        "OUTER_CONTOUR"
+      ],
+      "threshold_m": 5.0,
+      "field_id": "F.wall",
+      "registry_ids": [],
+      "provenance": [
+        {
+          "source_id": "PROJECT_TEST",
+          "locator": "Выбранные условия проекта; не норматив"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.spacing",
+      "label": "Расстояние между новыми посадками",
+      "operator": "spacing",
+      "kind": "PROJECT_TEST",
+      "default_enabled": false,
+      "description": "Общий тестовый минимум между центрами, не размер кроны или корней. Проверяется весь план, включая скрытые и закреплённые посадки.",
+      "threshold_m": 3.0,
+      "registry_ids": [
+        "R.spacing"
+      ],
+      "provenance": [
+        {
+          "source_id": "MODEL",
+          "locator": "Постановка"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "PLAN"
+    },
+    {
+      "id": "R.territory",
+      "label": "Рекомендация каталога для территории",
+      "operator": "territory",
+      "kind": "ADVISORY",
+      "default_enabled": false,
+      "description": "Исходная отметка + / − / UNKNOWN. Минус — рекомендация, не обязательный запрет. Требуется выбрать обычную территорию и подтвердить отсутствие особого режима.",
+      "registry_ids": [
+        "R.territory"
+      ],
+      "field_id": "terrain.category",
+      "provenance": [
+        {
+          "source_id": "REC",
+          "locator": "Строка растения × столбец категории"
+        },
+        {
+          "source_id": "PER",
+          "locator": "Строка растения × столбец категории"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.soil.drained",
+      "label": "Дренированность грунта",
+      "operator": "source_boolean",
+      "kind": "SOURCE_CONDITION",
+      "default_enabled": false,
+      "description": "Проверка буквального условия примечания [4] исходного ассортимента. Для записи без этого примечания требование НЕ считается известным.",
+      "site_parameter": "soil_drained",
+      "expected": true,
+      "required_flag": "4",
+      "field_id": "soil.drained",
+      "registry_ids": [
+        "R.soil.drained"
+      ],
+      "provenance": [
+        {
+          "source_id": "REC",
+          "locator": "Прим.4"
+        },
+        {
+          "source_id": "PER",
+          "locator": "Прим.4"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.soil.loose",
+      "label": "Рыхлость грунта",
+      "operator": "source_boolean",
+      "kind": "SOURCE_CONDITION",
+      "default_enabled": false,
+      "description": "Проверка буквального условия примечания [4] исходного ассортимента. Для записи без этого примечания требование НЕ считается известным.",
+      "site_parameter": "soil_loose",
+      "expected": true,
+      "required_flag": "4",
+      "field_id": "soil.loose",
+      "registry_ids": [
+        "R.soil.loose"
+      ],
+      "provenance": [
+        {
+          "source_id": "REC",
+          "locator": "Прим.4"
+        },
+        {
+          "source_id": "PER",
+          "locator": "Прим.4"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.soil.saline",
+      "label": "Отсутствие засоления",
+      "operator": "source_boolean",
+      "kind": "SOURCE_CONDITION",
+      "default_enabled": false,
+      "description": "Проверка буквального условия примечания [4] исходного ассортимента. Для записи без этого примечания требование НЕ считается известным.",
+      "site_parameter": "soil_saline",
+      "expected": false,
+      "required_flag": "4",
+      "field_id": "soil.saline",
+      "registry_ids": [
+        "R.soil.saline"
+      ],
+      "provenance": [
+        {
+          "source_id": "REC",
+          "locator": "Прим.4"
+        },
+        {
+          "source_id": "PER",
+          "locator": "Прим.4"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.soil.compacted",
+      "label": "Отсутствие уплотнения",
+      "operator": "source_boolean",
+      "kind": "SOURCE_CONDITION",
+      "default_enabled": false,
+      "description": "Проверка буквального условия примечания [4] исходного ассортимента. Для записи без этого примечания требование НЕ считается известным.",
+      "site_parameter": "soil_compacted",
+      "expected": false,
+      "required_flag": "4",
+      "field_id": "soil.compacted",
+      "registry_ids": [
+        "R.soil.compacted"
+      ],
+      "provenance": [
+        {
+          "source_id": "REC",
+          "locator": "Прим.4"
+        },
+        {
+          "source_id": "PER",
+          "locator": "Прим.4"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.water.stagnant",
+      "label": "Отсутствие застойного увлажнения",
+      "operator": "source_boolean",
+      "kind": "SOURCE_CONDITION",
+      "default_enabled": false,
+      "description": "Проверка буквального условия примечания [4] исходного ассортимента. Для записи без этого примечания требование НЕ считается известным.",
+      "site_parameter": "stagnant_water",
+      "expected": false,
+      "required_flag": "4",
+      "field_id": "water.stagnant",
+      "registry_ids": [
+        "R.water.stagnant"
+      ],
+      "provenance": [
+        {
+          "source_id": "REC",
+          "locator": "Прим.4"
+        },
+        {
+          "source_id": "PER",
+          "locator": "Прим.4"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    },
+    {
+      "id": "R.moisture_range",
+      "label": "Влажность A1 в заданном диапазоне",
+      "operator": "range",
+      "kind": "PROJECT_TEST",
+      "default_enabled": false,
+      "description": "Сценарная шкала 0–1. A1 задаётся для всего участка, диапазон — отдельно для проектного типа. Это не измеренная физическая влажность и не повидовые данные ГОСТа.",
+      "site_parameter": "A1",
+      "field_id": "water.moisture",
+      "registry_ids": [
+        "R.moisture_range"
+      ],
+      "provenance": [
+        {
+          "source_id": "MODEL",
+          "locator": "Пример расширения"
+        }
+      ],
+      "version": 1,
+      "evaluation_scope": "SITE_POINT"
+    }
+  ]
+}

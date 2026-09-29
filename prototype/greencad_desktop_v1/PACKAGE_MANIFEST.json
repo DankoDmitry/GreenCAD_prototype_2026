@@ -1,0 +1,480 @@
+{
+  "package": "GreenCAD Desktop",
+  "version": "0.6.1",
+  "schema_version": 1,
+  "build_date": "2026-09-29",
+  "scope": "Seeded jittered candidate sampling, existing regular mode, fixed dialog footer, no main yellow banner; unchanged rule formulas, registries and GCP v4.",
+  "base_commit": "32dbce22e39382ee42a8a03d15a7c45d7591817b",
+  "hash_normalization": "UTF-8: CRLF normalized to LF; binary exact bytes; manifest excludes itself.",
+  "tested_environment": {
+    "python": "3.13.5",
+    "tk": "8.6.16",
+    "ezdxf": "1.4.4",
+    "shapely": "2.1.2",
+    "os": "Linux x86-64, Xvfb"
+  },
+  "tests": {
+    "passed": 282,
+    "core": 197,
+    "gui": 85,
+    "windows_tested": false
+  },
+  "files": {
+    ".gitattributes": {
+      "size": 105,
+      "sha256": "eddfcc739c7287c0c6ffe25b845be166d090c6f6aac9d92f7cd4aab06cc3c09f"
+    },
+    ".github/workflows/tests.yml": {
+      "size": 906,
+      "sha256": "6a87d6752ca811869e4dc61ff99d2070b8b394cef73503e073dec124f64057ac"
+    },
+    ".gitignore": {
+      "size": 54,
+      "sha256": "232cb9cb59bb473e112365b733f7e978319d668ca10935d4447fed1dd8a12c86"
+    },
+    "LICENSE.txt": {
+      "size": 1371,
+      "sha256": "5f41cb008f423e282482d6e17167dea22c07ab7e87b967f5737f7e313aef9919"
+    },
+    "README.md": {
+      "size": 30320,
+      "sha256": "7b7e6fccf30afbda99247c07ed60b898f544d88af9183ef6a7ce8f1a97a9d563"
+    },
+    "RUN_TESTS_WINDOWS.bat": {
+      "size": 205,
+      "sha256": "32bcabc857e96beb2f0b2fee333958a5e93cb0a10f43d3bd46f05d4e30958947"
+    },
+    "START_GENERATION_WINDOWS.bat": {
+      "size": 84,
+      "sha256": "873ef2f6e4e4b2163078e52b9b72b95a4b327e4310507a65bb4265adc0becdce"
+    },
+    "START_TEMPLATES_WINDOWS.bat": {
+      "size": 84,
+      "sha256": "873ef2f6e4e4b2163078e52b9b72b95a4b327e4310507a65bb4265adc0becdce"
+    },
+    "START_WINDOWS.bat": {
+      "size": 279,
+      "sha256": "fdbd4ce3b96b22373fceaded1d84b985f5c568828bd8c7d13dc37b5719b713ae"
+    },
+    "data/check_rules.json": {
+      "size": 11971,
+      "sha256": "df333ae01481da3c596296b4ee98f41195dad3761cc525a4f2c154aa0b0d85fc"
+    },
+    "data/layer_mapping.json": {
+      "size": 1175,
+      "sha256": "36005b4452031d50f0b4eb3c6cec4bc3db6f6b216b416fe8f7674cba44ede9bf"
+    },
+    "data/plant_check_facts.json": {
+      "size": 23385,
+      "sha256": "645a696cc531c9d51c11c89dd550508bdf3003c28fbf8e9be62f257dcbcb0eab"
+    },
+    "data/plants_index.json": {
+      "size": 74497,
+      "sha256": "f8ebc5fa927f4c9301089d9f7037c2efd542b83b28c82beecf998c652189002f"
+    },
+    "data/project_types.json": {
+      "size": 1263,
+      "sha256": "892a4eba10971a2c08824a8423b5672822d8b4f27beb0b2e829ff82503ebbb35"
+    },
+    "data/reference_bundle.json.gz": {
+      "size": 269591,
+      "sha256": "466db10969231c2dfa2480604f8371e08469018a11d200dbffb602cad697ea8b"
+    },
+    "data/reference_sources.zip": {
+      "size": 615666,
+      "sha256": "c453f5372e05d1822d5d27a90c431559dfcb33c055ed072c9cefe99f65d201bc"
+    },
+    "data/site_types.json": {
+      "size": 42555,
+      "sha256": "3e6982aaf050317499fb9bced82fc54363e4a34e9e3f6fc8c3635d05b00af4c1"
+    },
+    "docs/ADMISSIBILITY_MAP.md": {
+      "size": 14072,
+      "sha256": "2e94b050b9b7c950799b3605604319fdaa5ceb705a9af2c4604cf1d10bb65b93"
+    },
+    "docs/ARCHITECTURE.md": {
+      "size": 10437,
+      "sha256": "c535a522bd21aa55970ed719e90ac5e94db77cdc84b0ce87a0c6ce0473cddf1c"
+    },
+    "docs/CALCULATION_TEMPLATES.md": {
+      "size": 22954,
+      "sha256": "79650472ed3eb5d8987b16d0c146ee56829610bc808f7560666ace594c0a957c"
+    },
+    "docs/DXF_CONTRACT.md": {
+      "size": 9395,
+      "sha256": "4e4563d2d42c0397a5353a5c452f6f68d941665b0d788f539d10459034405c57"
+    },
+    "docs/FIX_RULE_PICKER_SAVE.md": {
+      "size": 5046,
+      "sha256": "baf82f2d183ece704ef2ac591c0f685b7b50b0efc33ba876bbe65eba93807333"
+    },
+    "docs/GENERATION.md": {
+      "size": 18884,
+      "sha256": "8347052a78df16909e1246f49f2fc95b794079ba4cd00b0e454e6d34cdd039a6"
+    },
+    "docs/POLISH_0_6_1.md": {
+      "size": 9675,
+      "sha256": "23da138949deb7fbffb0bfdba30aa86f0291c65edde43ca898802d76aedc6d52"
+    },
+    "docs/REFERENCE_DATA.md": {
+      "size": 16084,
+      "sha256": "96ddee22ca15469c185be217003f5178396b3b32678c0cfe6ca2dc14edf6215b"
+    },
+    "docs/REGISTRY_NOT_IMPLEMENTED.json": {
+      "size": 34594,
+      "sha256": "5774d1dcedd65cd3b791d05e52db6eddb767b80a6b7800e07191e5d1704a336e"
+    },
+    "docs/SOURCES.md": {
+      "size": 2754,
+      "sha256": "8b5d1baae01124e7a3addab478e5905d6d4c25bab37d6c52b18a5882d2ae540f"
+    },
+    "docs/UPGRADE_0_2.md": {
+      "size": 4637,
+      "sha256": "9749335fa22c35a490600b8fdd809bb154290387a94a7d348e7a75e663479f56"
+    },
+    "docs/UPGRADE_0_4.md": {
+      "size": 7136,
+      "sha256": "a36d24eb8596505d02bf00ed4a34f068b8a3dcfb37946eebc736c045001513eb"
+    },
+    "docs/UPGRADE_0_5.md": {
+      "size": 3640,
+      "sha256": "8c2a271d538974a2cbf3a438ba76bf78d7a847048306c47192947162367d168c"
+    },
+    "docs/UPGRADE_0_6.md": {
+      "size": 3333,
+      "sha256": "19e0992464048d499aa809a0891cae3351e67a90e2ba01542c0eb1289ccf4ff2"
+    },
+    "docs/VALIDATION.md": {
+      "size": 15192,
+      "sha256": "5eabbb4687f4151489f68e41550375c2e935073d38c848f050effb870c752c2a"
+    },
+    "examples/demo_block.dxf": {
+      "size": 21484,
+      "sha256": "f4fa406aeecbf76d3d6c20964bcc6b77781d8d5cd926cfe145324e7e08f7a052"
+    },
+    "examples/demo_generated.checks.json": {
+      "size": 1543456,
+      "sha256": "62a7442a4209d8500b59ba3af33416c7ccc15bd9814812e552a3936b029b2375"
+    },
+    "examples/demo_generated.dxf": {
+      "size": 174140,
+      "sha256": "ac5b48cf2b43e4b86a3cb2ad2bd8e791a36845b2b6c09f615aff0c20a42debb9"
+    },
+    "examples/demo_generated.gcp": {
+      "size": 286525,
+      "sha256": "1ee6e71ee819739157e447a6398bc08593262b14c1c46a23bef4ae6636d7657c"
+    },
+    "examples/demo_generated.generation.json": {
+      "size": 2836552,
+      "sha256": "00359a992ca80d9923120f3ccd80d388fd9f9ee363554b52ecc1ac990543bbd3"
+    },
+    "examples/demo_result.dxf": {
+      "size": 27836,
+      "sha256": "daba5f94a56b5d6692374b60a2bd95dcf6b7af686dfdb88d7034e88689ea52c8"
+    },
+    "examples/demo_result.export.json": {
+      "size": 699,
+      "sha256": "341ca33c0f151e64944cba462435e84ad4b6abb25c06714ecc51dcabcaaa2262"
+    },
+    "examples/demo_session.gcp": {
+      "size": 6073,
+      "sha256": "8033488d58a5f8346034040dc8487e2c34fd2f2092c06c945f1300c4748c1bb0"
+    },
+    "examples/demo_templates.dxf": {
+      "size": 35838,
+      "sha256": "48c6ce11aa75d3a1413f5712b768fdbb671504a08cbe5cffbf88a602215e030c"
+    },
+    "examples/demo_templates.gcp": {
+      "size": 283001,
+      "sha256": "f3d2f5ea4ad5e5713000c5629ced2502549717502704257dc11c3130f8720207"
+    },
+    "examples/demo_templates.report.json": {
+      "size": 136603,
+      "sha256": "a2cb03ec78141e6c29b6cfeaa021c99c29d0486bc374e68890e4d051e89359d2"
+    },
+    "greencad_editor/__init__.py": {
+      "size": 103,
+      "sha256": "632154a676b22997f9c81cba5a24b3f8adc18083309be7ac764538604ebbc56b"
+    },
+    "greencad_editor/admissibility.py": {
+      "size": 15531,
+      "sha256": "e9a7c50583507e2cd388cfaad638a475264915c666874f6e54e16511493d4138"
+    },
+    "greencad_editor/admissibility_ui.py": {
+      "size": 22891,
+      "sha256": "f6ef44b4baa1640f2ee19c5c89b91010b8329f8b30f95b060279c25221d29d65"
+    },
+    "greencad_editor/app.py": {
+      "size": 2188,
+      "sha256": "73797f681f0f3dc4e79b741b30ef7f74c73a57a5878068d6e0cc9e421c94dfcd"
+    },
+    "greencad_editor/catalog.py": {
+      "size": 1112,
+      "sha256": "2cf3d2a50133fdb21ae06daef527bf7691b69ae57adac3c38bc2d6a06e2d14da"
+    },
+    "greencad_editor/check_geometry.py": {
+      "size": 10194,
+      "sha256": "9d372803cbf8cd23f5ea40c579084aeb5f244b65d09ede626603df2155406503"
+    },
+    "greencad_editor/checks.py": {
+      "size": 30418,
+      "sha256": "f47f23a79623ed31e26048d1d9b455bb68d3190c4101987b22e7c9e60249292c"
+    },
+    "greencad_editor/checks_ui.py": {
+      "size": 28842,
+      "sha256": "28193f2eb222ccf7a6e4812f481dd4de4291e3da1cc1ed0da5386232766bde37"
+    },
+    "greencad_editor/demo.py": {
+      "size": 2695,
+      "sha256": "736e438675d860444566e8d25e70d48b8c9fc28ae58178d3764f8a4296d7f811"
+    },
+    "greencad_editor/dxf_io.py": {
+      "size": 23285,
+      "sha256": "0c127b02d632ecef9a8df2eefdb58057cdaf6348b8096a85f41080923278e142"
+    },
+    "greencad_editor/errors.py": {
+      "size": 225,
+      "sha256": "051d8cf90022070037ce313fd309928509c608a0d97062258b182e7b1959a688"
+    },
+    "greencad_editor/generation.py": {
+      "size": 26123,
+      "sha256": "d85ce9da51cc7ca55198b5e4c97605b59a707a3cc8ba2f2c93c82042e8fff312"
+    },
+    "greencad_editor/generation_ui.py": {
+      "size": 29794,
+      "sha256": "f766ab17c3c244795fe892a68c7703e2e502142e60d05b82e81ad433153197eb"
+    },
+    "greencad_editor/metadata.py": {
+      "size": 2113,
+      "sha256": "32e50853be56e674a66aa5fbcec75ade9be8c5a16112578d1d94a3db9687a912"
+    },
+    "greencad_editor/models.py": {
+      "size": 6898,
+      "sha256": "c9b5197d24ce65677aeb80e77fc6d82607f06fffac8d222e384eeb774548429f"
+    },
+    "greencad_editor/project_io.py": {
+      "size": 5549,
+      "sha256": "c2665c02a7694c4425bce7b92859ce280087a4f54002c6526625cfff3e8a1c76"
+    },
+    "greencad_editor/reference_build.py": {
+      "size": 15419,
+      "sha256": "01c9461c34fa65144304ea2261a1a70fd3cc2c7fc64090a50ad0a5c109e9b563"
+    },
+    "greencad_editor/reference_data.py": {
+      "size": 20338,
+      "sha256": "a1eacafa26756e63438e486fd211f7f2e1bfda8ae3f32395a5aac28688e36452"
+    },
+    "greencad_editor/reference_ui.py": {
+      "size": 25026,
+      "sha256": "b9ca3f13509aab5ef1552307856cccb7c20c577a93c67eeffccaaf15bd7dcae4"
+    },
+    "greencad_editor/session.py": {
+      "size": 11594,
+      "sha256": "f6befc69d0fb13b5be9dd53ad09d0f1abd73b6a2b84d52da75142ea151cf91ff"
+    },
+    "greencad_editor/templates.py": {
+      "size": 18129,
+      "sha256": "4571ffa12592f45c66cc806b48217379f9566ec9bbf99ae8d6d7f17a6c74656a"
+    },
+    "greencad_editor/templates_ui.py": {
+      "size": 31002,
+      "sha256": "4781dc01cf628bf8a20aac3cdb21427980cdb47644bcdaa15079649e3af576dc"
+    },
+    "greencad_editor/ui.py": {
+      "size": 44524,
+      "sha256": "49e2d13ac975a332ae491f4c1d44b4f6ebb65549eea118a35752d7e8326e6da5"
+    },
+    "greencad_editor/view.py": {
+      "size": 15442,
+      "sha256": "884c4c157f0a63e8a6a3d641382cbb5f7967a97a385b2c5d42a7c24066983837"
+    },
+    "requirements.txt": {
+      "size": 314,
+      "sha256": "cac76680d37c95d7d6e5014737f34d12074e915cedc67a75140a28477f3307d2"
+    },
+    "run_editor.py": {
+      "size": 171,
+      "sha256": "523290374b66f0c6b0afa3e4eccf959fbdd6d94287907ffd1dd533d81df426ea"
+    },
+    "run_linux.sh": {
+      "size": 300,
+      "sha256": "da413dd73053bd8caf2c8871de15b2467ca29be778228444a254b9471661c6e6"
+    },
+    "setup_windows.bat": {
+      "size": 997,
+      "sha256": "9ee180856127c2813df93be142d09e9a340e92c676cc05558ad8af69c29944ef"
+    },
+    "test_results/ADMISSIBILITY_MAP_TESTS.md": {
+      "size": 4883,
+      "sha256": "060ef5ce46e7e632c547768a323ae8fe7f168a05a646e572781f93a2e1d7f4c1"
+    },
+    "test_results/CALCULATION_TEMPLATES_TESTS.md": {
+      "size": 7374,
+      "sha256": "5b4b0e28eb3b41e6cde04e1a93cdcc2900bf313cb35f6541b7c2ef0ba62228d6"
+    },
+    "test_results/GENERATION_PACKAGE_FULL.txt": {
+      "size": 33201,
+      "sha256": "ef86372e22410de7fb48b6fbc025ad0a03571e987a83a4e07cde09145fcc80dc"
+    },
+    "test_results/GENERATION_PACKAGE_TESTS.md": {
+      "size": 1596,
+      "sha256": "8cbf577b6a196a5f0eff2868ef9d819eacaaedcac0a81b6b2a6cad09903e53f5"
+    },
+    "test_results/GENERATION_PACKAGE_UPDATE.txt": {
+      "size": 33203,
+      "sha256": "93fdda83d18abe67fa4e072df5b22c047f7c5bd67daff0d9dfde9db8f87b918e"
+    },
+    "test_results/GENERATION_TESTS.md": {
+      "size": 7854,
+      "sha256": "10e455e89023a4c28d28c698f2e5600eb41b1c4f90b36ccfd9b3ce1e5d3dc4bd"
+    },
+    "test_results/GENERATION_TESTS.txt": {
+      "size": 33189,
+      "sha256": "3a10b70bc0b183b3fa310ff26ea41a85140c12bf25500491204ca39f008983cb"
+    },
+    "test_results/POLISH_0_6_1_TESTS.md": {
+      "size": 5084,
+      "sha256": "cdb7b4d5db9e15d4fa79cb9580cbb69dda328b7cd391d1071b3638ca89727b67"
+    },
+    "test_results/REFERENCE_DATA_TESTS.md": {
+      "size": 7116,
+      "sha256": "f67540e509943fd624b2cac6f2e9f4b59f2860292cf1fc7e3da2fe31c80c50f5"
+    },
+    "test_results/TEST_REPORT.md": {
+      "size": 7509,
+      "sha256": "4c2d9e53fdfe972db9cad3ea08f40d466832ed49c3aef1631a66a1eeca0c69ee"
+    },
+    "test_results/VALIDATION_TEST_REPORT.md": {
+      "size": 4279,
+      "sha256": "8076263492463bc00fc8dccef757ae2ed86d63df42d92326ee3879210d59d8ac"
+    },
+    "test_results/all_tests.txt": {
+      "size": 3397,
+      "sha256": "3af5348cb9e0f2f4a96146b73c5f7388fe22d8717a1e8e0b8e8783f044f369d4"
+    },
+    "test_results/benchmark.json": {
+      "size": 858,
+      "sha256": "7bc80a4375c803d3ecc2eda221cc2da096c1675f3095c8fc1aa040be5ba518c4"
+    },
+    "test_results/core_tests.txt": {
+      "size": 2639,
+      "sha256": "64f87c2b8cc52680d4ba147becba006f940c458d898ebd81c1e523476ec15071"
+    },
+    "test_results/editor_screenshot.png": {
+      "size": 121076,
+      "sha256": "865eff143c9ffe0d3ffbdbb02aa543655da8b70f085dec403ffedc3336a97e8f"
+    },
+    "test_results/gui_tests.txt": {
+      "size": 856,
+      "sha256": "e921b881fa8a4659ce964f7c25cdf063bba91f9fceed11308112c3014356e7f9"
+    },
+    "test_results/polish_tests.log": {
+      "size": 36223,
+      "sha256": "7904946f47cac139952c326b90b8711d720ce568c431f982c3203bad572976d0"
+    },
+    "test_results/validation_tests.txt": {
+      "size": 7010,
+      "sha256": "287be21cd8a224175cc76a1cdfb1e57cc92c9ca71f2f82877bfb2b8023e801f4"
+    },
+    "tests/test_admissibility.py": {
+      "size": 13936,
+      "sha256": "674c8a6e3b69fe32bf1a969f33ab13d17cb1bc54afeb06eb3f89faa065ce0904"
+    },
+    "tests/test_admissibility_gui.py": {
+      "size": 9114,
+      "sha256": "41c7467553127c9e674e9817fbea6466d10faa5ff4945966f1e130e1ac8788d3"
+    },
+    "tests/test_checks.py": {
+      "size": 12533,
+      "sha256": "dd2e5d91c9e60a44934db65943e4523764931e145166f4ecaf3b61ec58ccfd3c"
+    },
+    "tests/test_checks_gui.py": {
+      "size": 7211,
+      "sha256": "045f3188193b69f4890157789bf7cdb069a50fcf39186b63817b701d265ccbc8"
+    },
+    "tests/test_core.py": {
+      "size": 14438,
+      "sha256": "6c85e3edf47c6a45f2e5babff5d144f0dc7c742e921bf5e0f90948d3bbdc9e2b"
+    },
+    "tests/test_generation.py": {
+      "size": 19196,
+      "sha256": "1b6d4985d7897435bbac3429fe266abba1a54c2c4d285d3ddcd4f393f30b21bc"
+    },
+    "tests/test_generation_gui.py": {
+      "size": 10145,
+      "sha256": "ed78fe069e8e57f82de97fd89a146bacfda80ee4bf2025c5d093b9654bd76858"
+    },
+    "tests/test_generation_polish.py": {
+      "size": 8678,
+      "sha256": "600016fa8723fc91cd9a74146f39c22fe60f35e9310ffc2ed51c75fbf95c2ba5"
+    },
+    "tests/test_generation_polish_gui.py": {
+      "size": 4178,
+      "sha256": "7be7b3d6a0e0a464227aa4c0413371efe93a01391373a310e6a4d461444a8eb3"
+    },
+    "tests/test_gui.py": {
+      "size": 8307,
+      "sha256": "d02d290b1ba5dbe6e3283d916f5c3ef82fdaae91a41c12aa427266d1a1e4595e"
+    },
+    "tests/test_reference.py": {
+      "size": 15149,
+      "sha256": "2ce9341556e0e577caec0468aba1e45718cad9335e5ec1703041b065514df23e"
+    },
+    "tests/test_reference_gui.py": {
+      "size": 6344,
+      "sha256": "4f4a9588be1a44f7593f7fa6592da7079920644ef0929e80694bea04aa7f1a47"
+    },
+    "tests/test_rule_picker_regression.py": {
+      "size": 9174,
+      "sha256": "1832f2c7afb4f30b42eb5a9382a050fd3f251655a793b5b1ba2559b34748de28"
+    },
+    "tests/test_templates.py": {
+      "size": 20241,
+      "sha256": "b85e1bb88eb76aab385b4592a49743f4de75d09d667003d766ccc9a1a627de7f"
+    },
+    "tests/test_templates_gui.py": {
+      "size": 13438,
+      "sha256": "28cbbc4deb49e1bf14743f9d2768c94a092ea18c905d18b7e1844768fa6372ff"
+    },
+    "tools/benchmark.py": {
+      "size": 2424,
+      "sha256": "be1138afca3d3f29d6fdad45f6ba08a6a80c29e5f956aa0f1be652ff1f7a5dcd"
+    },
+    "tools/build_reference.py": {
+      "size": 1777,
+      "sha256": "e7073fb40e9eb2a0337c1df3c71925e0dc544251ca727181beea1a6413317abe"
+    },
+    "tools/check_plan.py": {
+      "size": 1793,
+      "sha256": "0ce1bcd20a3651f82c455970369e21ab80196f22c30be566890fb8f961a01c8e"
+    },
+    "tools/generate_layout.py": {
+      "size": 5445,
+      "sha256": "fe4a7a0962247d8d6e0f0d9a29e3fa329d25ba24d5fefb7e469d0ba930742ea5"
+    },
+    "tools/make_examples.py": {
+      "size": 1156,
+      "sha256": "dbec4ca2d3d8196ecb28beb87899cadb8271bf194dd8afd1ca163238ae2da857"
+    },
+    "tools/make_generation_example.py": {
+      "size": 1859,
+      "sha256": "bea34eca0794e96bddc28262d1dbcf92becfed95682e8e2faa7551c24826ed83"
+    },
+    "tools/make_template_example.py": {
+      "size": 3201,
+      "sha256": "558fe4e65d05cce1c703c2e0c0a9b1f524961b414b97400c3fa008ef0bcae20e"
+    },
+    "tools/map_admissibility.py": {
+      "size": 3004,
+      "sha256": "6cecf2d2e9b140db80fca539759d4b0a5c58dcb2e01abc299094ef274fb99a1b"
+    },
+    "tools/match_plants.py": {
+      "size": 2123,
+      "sha256": "a0ca3e7e50793d382925d286f5a9f3a7c4eb26a8a70cff055e61ace559452708"
+    },
+    "tools/verify_export.py": {
+      "size": 557,
+      "sha256": "572e8fcc41566504104b3e7a1a8afb9067431e68f6488347313282f68766a5fa"
+    }
+  }
+}

@@ -1,0 +1,987 @@
+{
+  "schema_version": 1,
+  "source": "GreenCAD_site_dictionary_v1.json",
+  "source_sha256": "09dcc2f50b273c3cb8d9e754e98dabb58ca456bbe6a849d18895481a50c600ba",
+  "object_types": [
+    {
+      "id": "context.landuse_boundary",
+      "label": "Граница землепользования",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.right_of_way",
+      "label": "Граница полосы отвода дороги / железнодорожного пути",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.construction_boundary",
+      "label": "Граница участка строительства",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.red_line",
+      "label": "Красная линия",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.building_regulation",
+      "label": "Граница регулирования застройки",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.sanitary_zone",
+      "label": "Граница санитарно-защитной зоны",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.surface_boundary",
+      "label": "Граница участка с разным материалом покрытия",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Граница; полигон области только при заданной стороне/замкнутом контуре",
+      "source_id": "G204"
+    },
+    {
+      "id": "context.functional_zone",
+      "label": "Функциональная зона",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Область категории территории",
+      "source_id": "TASK"
+    },
+    {
+      "id": "context.geodetic_point",
+      "label": "Пункт геодезической основы",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Опорная координатная точка",
+      "source_id": "G508"
+    },
+    {
+      "id": "context.coordinate_grid",
+      "label": "Строительная геодезическая сетка",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Система привязки, а не физический объект",
+      "source_id": "G508"
+    },
+    {
+      "id": "context.hydrography",
+      "label": "Гидрография и гидротехнические сооружения",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Группа объектов водной обстановки; подтип обязателен для конкретной проверки",
+      "source_id": "G52440"
+    },
+    {
+      "id": "context.project_domain",
+      "label": "Граница расчетного участка GreenCAD",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Область рассматриваемого участка",
+      "source_id": "MODEL"
+    },
+    {
+      "id": "context.green_zone",
+      "label": "Отдельная задача озеленения",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Полигон зоны с запрещенными внутренними частями",
+      "source_id": "MODEL"
+    },
+    {
+      "id": "context.exclusion",
+      "label": "Явная зона исключения посадок",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Исключаемая область с причиной",
+      "source_id": "MODEL"
+    },
+    {
+      "id": "context.observation_patch",
+      "label": "Область действия заданного параметра среды",
+      "theme": "CONTEXT",
+      "proposed_geometry_meaning": "Область, где определено наблюдение или сценарное значение",
+      "source_id": "MODEL"
+    },
+    {
+      "id": "base.building",
+      "label": "Здание / сооружение",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Горизонтальный габарит, с явно указанным смыслом контура",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.canopy",
+      "label": "Навес",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Проекция навеса; отсутствие z не означает отсутствие объекта",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.ground_passage",
+      "label": "Проезд / проход на уровне первого этажа",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Область проезда; не выводить автоматически из фасадного контура",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.gallery",
+      "label": "Переход / галерея",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Проекция сооружения",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.tower",
+      "label": "Вышка / мачта",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Точка привязки или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.crane_trestle",
+      "label": "Подкрановая эстакада",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Проекция сооружения",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.stairs",
+      "label": "Лестница",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Площадь лестницы",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.ramp",
+      "label": "Пандус",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Площадь пандуса",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.platform",
+      "label": "Платформа",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физическая площадь",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.loading_ramp",
+      "label": "Рампа",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физическая площадь; не путать с пандусом",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.retaining_wall",
+      "label": "Стенка подпорная",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Грань / подошва / габарит должны быть указаны явно",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.counterbank",
+      "label": "Контрбанкет / контрфорс",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Горизонтальная проекция укрепления",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.bank_protection",
+      "label": "Укрепление берега или оврага",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Граница либо полоса укрепления",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.slope",
+      "label": "Откос насыпи / выемки",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Область откоса; верхняя и нижняя линии — отдельные роли",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.fence",
+      "label": "Ограждение",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Линия или физическая полоса ограждения",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.gate",
+      "label": "Ворота / калитка",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Проем и область прохода задаются явно",
+      "source_id": "G204"
+    },
+    {
+      "id": "base.foundation",
+      "label": "Подошва фундамента",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Внешний контур подошвы, не координационная ось здания",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.elevation_point",
+      "label": "Высотная отметка",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Точка измерения/проектирования с отметкой",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.contour",
+      "label": "Горизонталь рельефа",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Линия одинаковой отметки",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.relief_break",
+      "label": "Линия перелома рельефа",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Линия изменения поверхности",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.gazebo",
+      "label": "Беседка",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физический габарит либо точка с размерами; условный значок недостаточен",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.fountain",
+      "label": "Фонтан",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физический габарит либо точка с размерами; условный значок недостаточен",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.sculpture",
+      "label": "Скульптура",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физический габарит либо точка с размерами; условный значок недостаточен",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.pergola",
+      "label": "Пергола",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физический габарит либо точка с размерами; условный значок недостаточен",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.bench",
+      "label": "Скамья",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физический габарит либо точка с размерами; условный значок недостаточен",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.bin",
+      "label": "Урна",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Физический габарит либо точка с размерами; условный значок недостаточен",
+      "source_id": "G508"
+    },
+    {
+      "id": "base.borehole",
+      "label": "Скважина инженерно-геологическая",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.hydro_borehole",
+      "label": "Скважина гидрогеологическая",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.trial_pit",
+      "label": "Шурф",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.geological_trench",
+      "label": "Расчистка, канава или траншея изысканий",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.groundwater_observation",
+      "label": "Точка наблюдений за режимом подземных вод",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.water_sample",
+      "label": "Точка отбора пробы воды",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.soil_test",
+      "label": "Точка испытания грунта",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.water_gauge",
+      "label": "Водомерный пост",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.spring_survey",
+      "label": "Точка исследования родника",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Местоположение обследования; положение и интервал глубин сохраняются отдельно",
+      "source_id": "G302"
+    },
+    {
+      "id": "base.geology_region",
+      "label": "Инженерно-геологический элемент / район",
+      "theme": "BASE",
+      "proposed_geometry_meaning": "Область изысканий либо граница выделенного элемента",
+      "source_id": "G302"
+    },
+    {
+      "id": "net.water",
+      "label": "Водопровод",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.sewer",
+      "label": "Канализация",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.storm_sewer",
+      "label": "Дождевая канализация / водосток",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.heat",
+      "label": "Теплопровод",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.steam",
+      "label": "Паропровод",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.compressed_air",
+      "label": "Трубопровод сжатого воздуха",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.gas",
+      "label": "Газопровод",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.power",
+      "label": "Электрическая сеть",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.comms",
+      "label": "Сеть связи",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось / трасса сети; наружный габарит и охранная зона не выводятся из толщины линии",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.water_drinking",
+      "label": "Водопровод хозяйственно-питьевой",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.water_fire",
+      "label": "Водопровод противопожарный",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.water_industrial",
+      "label": "Водопровод производственный",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.sewer_domestic",
+      "label": "Канализация бытовая",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.sewer_industrial",
+      "label": "Канализация производственная",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.heat_supply",
+      "label": "Теплопровод подающий",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.heat_return",
+      "label": "Теплопровод обратный",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.condensate",
+      "label": "Конденсатопровод",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось индивидуальной сети / контура; родительская категория сохраняется",
+      "source_id": "G205"
+    },
+    {
+      "id": "net.drainage",
+      "label": "Дренажная сеть",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось дренажа; область его влияния отдельно",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.utility_collector",
+      "label": "Коллектор для сетей",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.trestle",
+      "label": "Эстакада для прокладки сетей",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.gallery",
+      "label": "Галерея для сетей",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.tunnel",
+      "label": "Тоннель / проходной канал",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.nonwalk_channel",
+      "label": "Канал непроходной",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.cable_channel",
+      "label": "Кабельный канал",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.trench",
+      "label": "Траншея",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Ось носителя и/или наружный габарит; перечень вложенных сетей обязателен при агрегировании",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.support",
+      "label": "Опора / стойка коммуникационного сооружения",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Точка опоры или внешний габарит основания",
+      "source_id": "G508"
+    },
+    {
+      "id": "net.connection",
+      "label": "Место подключения к существующей сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Узел связности и идентификаторы соединяемых сетей",
+      "source_id": "G508"
+    },
+    {
+      "id": "net.well",
+      "label": "Колодец сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Идентификатор и геометрия узла; размеры физические, не размеры знака",
+      "source_id": "G508"
+    },
+    {
+      "id": "net.chamber",
+      "label": "Камера сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Идентификатор и геометрия узла; размеры физические, не размеры знака",
+      "source_id": "G508"
+    },
+    {
+      "id": "net.niche",
+      "label": "Ниша сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Идентификатор и геометрия узла; размеры физические, не размеры знака",
+      "source_id": "G508"
+    },
+    {
+      "id": "net.compensator",
+      "label": "Компенсатор",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Идентификатор и геометрия узла; размеры физические, не размеры знака",
+      "source_id": "G508"
+    },
+    {
+      "id": "net.condensate_collector",
+      "label": "Конденсатосборник",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Геометрия соответствующего устройства, связь с защищаемой сетью",
+      "source_id": "G710"
+    },
+    {
+      "id": "net.test_station",
+      "label": "Контрольно-измерительный пункт",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Геометрия соответствующего устройства, связь с защищаемой сетью",
+      "source_id": "G710"
+    },
+    {
+      "id": "net.electrical_jumper",
+      "label": "Электрическая перемычка",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Геометрия соответствующего устройства, связь с защищаемой сетью",
+      "source_id": "G710"
+    },
+    {
+      "id": "net.insulating_joint",
+      "label": "Изолирующее соединение",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Геометрия соответствующего устройства, связь с защищаемой сетью",
+      "source_id": "G710"
+    },
+    {
+      "id": "net.electrochemical_protection",
+      "label": "Электрохимическая защита газопровода",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Геометрия соответствующего устройства, связь с защищаемой сетью",
+      "source_id": "G710"
+    },
+    {
+      "id": "net.protection_zone",
+      "label": "Охранная зона сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Граница, предоставленная поставщиком с основанием ее построения",
+      "source_id": "G710"
+    },
+    {
+      "id": "net.valve",
+      "label": "Запорная арматура",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Физический элемент и его связь с трассой",
+      "source_id": "G705"
+    },
+    {
+      "id": "net.fixed_anchor",
+      "label": "Неподвижная опора",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Физический элемент и его связь с трассой",
+      "source_id": "G705"
+    },
+    {
+      "id": "net.movable_support",
+      "label": "Подвижная опора",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Физический элемент и его связь с трассой",
+      "source_id": "G705"
+    },
+    {
+      "id": "net.drain_point",
+      "label": "Точка дренирования тепловой сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Физический элемент и его связь с трассой",
+      "source_id": "G705"
+    },
+    {
+      "id": "net.casing",
+      "label": "Футляр трубопровода",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Участок защитного футляра и наружный диаметр",
+      "source_id": "G704"
+    },
+    {
+      "id": "net.inlet",
+      "label": "Дождеприемный колодец / решетка",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Нужна явно заданная роль геометрии: ось, край или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.tray",
+      "label": "Водоотводный лоток",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Нужна явно заданная роль геометрии: ось, край или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.ditch",
+      "label": "Канава / кювет / канал водоотвода",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Нужна явно заданная роль геометрии: ось, край или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.rapid_drop",
+      "label": "Быстроток / перепад",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Нужна явно заданная роль геометрии: ось, край или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.siphon",
+      "label": "Дюкер",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Нужна явно заданная роль геометрии: ось, край или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.culvert",
+      "label": "Водопропускная труба",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Нужна явно заданная роль геометрии: ось, край или физический габарит",
+      "source_id": "G204"
+    },
+    {
+      "id": "net.cable_conduit",
+      "label": "Кабельная канализация связи",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Трасса канализации связи; каналы и кабели отдельно",
+      "source_id": "G703"
+    },
+    {
+      "id": "net.comms_well",
+      "label": "Колодец кабельной канализации",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Номер, тип и габарит колодца",
+      "source_id": "G703"
+    },
+    {
+      "id": "net.exploratory_area",
+      "label": "Участок шурфования для уточнения сети",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Область обследования, а не подтвержденная линия сети",
+      "source_id": "G703"
+    },
+    {
+      "id": "net.lighting_pole",
+      "label": "Опора наружного освещения",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Габарит либо монтажная точка и размеры; выбранная роль явно указана",
+      "source_id": "G607"
+    },
+    {
+      "id": "net.luminaire",
+      "label": "Светильник",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Габарит либо монтажная точка и размеры; выбранная роль явно указана",
+      "source_id": "G607"
+    },
+    {
+      "id": "net.floodlight_mast",
+      "label": "Прожекторная мачта / башня",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Габарит либо монтажная точка и размеры; выбранная роль явно указана",
+      "source_id": "G607"
+    },
+    {
+      "id": "net.lighting_control",
+      "label": "Устройство питания / управления освещением",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Габарит либо монтажная точка и размеры; выбранная роль явно указана",
+      "source_id": "G607"
+    },
+    {
+      "id": "net.earthing",
+      "label": "Заземлитель",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Габарит либо монтажная точка и размеры; выбранная роль явно указана",
+      "source_id": "G607"
+    },
+    {
+      "id": "net.cable_protection_pipe",
+      "label": "Труба для прокладки кабеля",
+      "theme": "NET",
+      "proposed_geometry_meaning": "Габарит либо монтажная точка и размеры; выбранная роль явно указана",
+      "source_id": "G607"
+    },
+    {
+      "id": "traffic.drive",
+      "label": "Проезд",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область с реальными границами и шириной/размерами",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.sidewalk",
+      "label": "Тротуар",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область с реальными границами и шириной/размерами",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.footpath",
+      "label": "Пешеходная дорожка",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область с реальными границами и шириной/размерами",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.cycleway",
+      "label": "Велодорожка",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область с реальными границами и шириной/размерами",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.parking",
+      "label": "Стоянка автомобилей",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область с реальными границами и шириной/размерами",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.activity_pad",
+      "label": "Площадка различного назначения",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область с реальными границами и шириной/размерами",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.road",
+      "label": "Автомобильная дорога",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Габарит и трасса имеют разные роли; нужны внешние края проезжей части",
+      "source_id": "G701"
+    },
+    {
+      "id": "traffic.curb",
+      "label": "Бортовой камень",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Линия конкретной грани либо физическая полоса; не автоматически край дороги",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.rail",
+      "label": "Железнодорожный путь",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Ось пути; внешний край рельса — другая геометрическая роль",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.tram",
+      "label": "Трамвайный путь",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Ось пути; для правила от крайнего рельса нужны дополнительные геометрия/размеры",
+      "source_id": "G704"
+    },
+    {
+      "id": "traffic.rail_switch",
+      "label": "Стрелочный перевод",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Узел пути или физическая область",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.buffer_stop",
+      "label": "Упор железнодорожного пути",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Реальное положение путевого упора",
+      "source_id": "G508"
+    },
+    {
+      "id": "traffic.crossing",
+      "label": "Пересечение дорог / переезд",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Узел или площадь пересечения",
+      "source_id": "G701"
+    },
+    {
+      "id": "traffic.interchange",
+      "label": "Транспортная развязка",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Область и состав путей; уровни не используются для ослабления ограничений",
+      "source_id": "G701"
+    },
+    {
+      "id": "traffic.road_barrier",
+      "label": "Дорожное ограждение",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Явно переданная проекция сооружения; не извлеченная форма значка",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.guide_post",
+      "label": "Направляющее устройство: сигнальный столбик / тумба",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Явно переданная проекция сооружения; не извлеченная форма значка",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.underground_crossing",
+      "label": "Подземный переход",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Явно переданная проекция сооружения; не извлеченная форма значка",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.overhead_crossing",
+      "label": "Надземный переход",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Явно переданная проекция сооружения; не извлеченная форма значка",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.slope_drain",
+      "label": "Откосная дрена",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Явно переданная проекция сооружения; не извлеченная форма значка",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.road_discharge",
+      "label": "Водосброс с проезжей части",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Явно переданная проекция сооружения; не извлеченная форма значка",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.sign",
+      "label": "Дорожный знак",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Точка установки и/или физический габарит опоры",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.marking",
+      "label": "Дорожная разметка",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Метка организации движения; не твердое препятствие сама по себе",
+      "source_id": "G207"
+    },
+    {
+      "id": "traffic.count_station",
+      "label": "Пункт учета интенсивности движения",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Место учета или поперечное сечение дороги",
+      "source_id": "G32965"
+    },
+    {
+      "id": "traffic.flow_segment",
+      "label": "Перегон / участок транспортного потока",
+      "theme": "TRAFFIC",
+      "proposed_geometry_meaning": "Участок и направление, к которому относятся наблюдения",
+      "source_id": "G32965"
+    },
+    {
+      "id": "dendro.tree",
+      "label": "Дерево",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Центр ствола; контур кроны отдельной геометрией",
+      "source_id": "G204"
+    },
+    {
+      "id": "dendro.shrub",
+      "label": "Кустарник",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Индивидуальная посадка либо группа с явным количеством",
+      "source_id": "G204"
+    },
+    {
+      "id": "dendro.vine",
+      "label": "Кустарник вьющийся / лиана",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Посадка и связь с опорой задаются отдельно",
+      "source_id": "G204"
+    },
+    {
+      "id": "dendro.hedge",
+      "label": "Живая изгородь",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Ось ряда с шириной или площадь полосы",
+      "source_id": "G204"
+    },
+    {
+      "id": "dendro.flowerbed",
+      "label": "Цветник",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Площадная посадка",
+      "source_id": "G204"
+    },
+    {
+      "id": "dendro.lawn",
+      "label": "Газон",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Площадная растительность; не вся зеленая зона по определению",
+      "source_id": "G204"
+    },
+    {
+      "id": "dendro.row",
+      "label": "Рядовая посадка деревьев / кустарников",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Ряд связан с экземплярами; ось ряда не заменяет их координаты",
+      "source_id": "G508"
+    },
+    {
+      "id": "dendro.group",
+      "label": "Группа растений",
+      "theme": "DENDRO",
+      "proposed_geometry_meaning": "Группа, количество и позиции; не считать все растение одним деревом",
+      "source_id": "G508"
+    }
+  ]
+}

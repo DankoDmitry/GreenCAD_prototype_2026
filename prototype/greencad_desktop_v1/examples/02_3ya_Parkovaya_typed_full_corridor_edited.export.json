@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "input_sha256": "66e7d7a2b88a5ab65e03c2caff6ad78e089999aa52b7c951477fd54556f80f94",
+  "output_sha256": "fa79b5ad60a9f6e44eda3e3ee0c29f13792164d32283158c344bd62ff18a5b0f",
+  "placements": 400,
+  "source_preservation": {
+    "passed": true,
+    "source_records_checked": 17040,
+    "missing": [],
+    "changed": [],
+    "scope": "Сериализованные DXF-теги исходных сущностей в блоках/пространствах и существующих слоев. Не побайтовое сравнение файлов."
+  },
+  "coordinate_check": "PASS",
+  "normative_validation": "NOT_IMPLEMENTED",
+  "output": "02_3ya_Parkovaya_typed_full_corridor_edited.dxf",
+  "warnings": [],
+  "selected_rules_report_state": "CURRENT",
+  "checks_sidecar": "02_3ya_Parkovaya_typed_full_corridor_edited.checks.json"
+}
